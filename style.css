@@ -1,0 +1,13 @@
+.prev-click, .next-click{ background: url(images/sprite.png) no-repeat; }
+
+.pagination { background-color: #fff; border: 1px solid #dddddd; border-radius: 3px; clear: both; margin: 28px 0 0; text-align: center; }
+.pagination ul { list-style: none; border-left: 1px solid #d9d6d6; border-right: 1px solid #d9d6d6; float: left; width: 88%; }
+.pagination ul li { display: inline-block; }
+.pagination ul li a { display: block; font-size: 16px; font-weight: 600; color: #515050; padding: 6px 2px; }
+.prev-div, .next-div { text-align: center; float: left; width: 68px; }
+.prev-click, .next-click { display: inline-block; width: 10px; height: 16px; margin: 9px 0 0; }
+.prev-click { background-position: -280px -311px; }
+.next-click { background-position: -280px -331px; }
+.prev-click:hover, .prev-div:hover .prev-click { background-position: -298px -311px; }
+.next-click:hover { background-position: -301px -331px; }
+.pagination ul li a:hover { color: #d75c43; }
