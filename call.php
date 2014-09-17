@@ -15,4 +15,4 @@ $total=wp_count_posts('press_release');
 				 
 				 // pagination div
 				 
-				 <?php appcara_pagination(ceil($total->publish/9)); ?>
+				 <?php my_pagination(ceil($total->publish/9)); ?>
